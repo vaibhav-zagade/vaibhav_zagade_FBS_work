@@ -1,7 +1,7 @@
 //calculating salary based on basic
 
 void main(){
-    int basic = 6000,da,ta,hra,total_sal;
+    double basic = 6000,da,ta,hra,total_sal;
     if(basic <= 5000){
         da = (basic*10)/100;
         ta = (basic*20)/100;
@@ -16,5 +16,6 @@ void main(){
         total_sal = basic + da + ta + hra;
         printf("Total salary is %d (with da = %d, ta = %d, hra = %d)",total_sal,da,ta,hra);
     }
+
 
 }
