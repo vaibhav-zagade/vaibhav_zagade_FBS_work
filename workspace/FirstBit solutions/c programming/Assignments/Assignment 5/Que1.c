@@ -1,4 +1,4 @@
-// 1. Print a solid square pattern
+// Print a solid square pattern
 // Input: n = 4
 // Output:
 
